@@ -1,4 +1,5 @@
 # sudoku
+na spustenie hry je potrebné mať nainštalovaný pithon a knižnicu pygame
 
 Návod na použitie
 Klasická hra Sudoku, cieľom je doplniť do mriežky 9×9 čísla od 1 do 9 tak, aby neboli dve rovnaké číslice v riadku, stĺpci a v bloku 3×3, ktorý je orámovaný tmavším okrajom.
