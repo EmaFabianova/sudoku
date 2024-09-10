@@ -1,0 +1,26 @@
+Prehľad
+Tento program je implementácia hry Sudoku s grafickým rozhraním vytvoreným pomocou knižnice Pygame. Program umožňuje hráčom hrať Sudoku alebo doplniť zadanie sudoku a overiť jeho riešenie.
+Použité knižnice
+•	pygame: Na grafické rozhranie a spracovanie udalostí
+•	sys: Na ukončenie programu
+•	random: Na generovanie náhodných čísel pre začiatok Sudoku
+•	copy: Na kopírovanie Sudoku pre úpravy
+Funkcie
+nakresli_mriezku() - vykreslí mriežku Sudoku do okna.
+nakresli_tlacidla() - vykreslí tlačidlá na pravej strane okna.
+zamiesaj() - zamieša zoznam s a vracia zamiešaný zoznam rovnakej dĺžky
+vzor() - vypočíta vzor pre vyplnenie Sudoku mriežky.
+sudoku_cisla() - generuje plne vyplnené Sudoku.
+zobraz_cisla() - zobrazí čísla v mriežke Sudoku a farbu podľa stavu.
+vybrane_cisla()- vyberie náhodné čísla z vyplneného Sudoku ako zadanie)
+obsadene_policka() - získava zoznam obsadených políčok v Sudoku.
+je_obsadena() - kontroluje, či je dané políčko obsadené.
+nastav_bunku() - nastavuje hodnotu do určitého políčka v Sudoku.
+kliknutie() - spracováva kliknutie na políčko a nastavuje číslo v políčku, ak je políčko prázdne.
+dopln_cislo() - dopĺňa chýbajúce čísla podľa vyriešeného Sudoku.
+je_sudoku_spravne() - kontroluje, či je Sudoku správne zadané a má minimálne 17 čísel.
+je_bezpecne() - kontroluje, či je bezpečné umiestniť dané číslo na určenú pozíciu.
+najdi_najlepsiu_poziciu() - nájde najlepšiu pozíciu na umiestnenie čísla na základe najmenšieho počtu možností.
+riesenie_sudoku() - rieši Sudoku použitím backtracking algoritmu.
+hlavna() - hlavná funkcia na spustenie hry, spracováva udalosti a vykresľuje všetky prvky v okne.
+
